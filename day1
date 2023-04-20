@@ -1,0 +1,19 @@
+int FirstIndexOf(string word, char letter)//alma  m
+{
+    int index = -1;
+    for (int i = 0; i < word.Length; i++)
+    {
+        if (word[i] == letter)
+        {
+           index = i;
+          // return i;
+        }
+
+    }
+    return index;
+}
+
+//string s = "Alma";
+//var index=s.IndexOf('m');//method
+//Console.WriteLine(index);
+Console.WriteLine(FirstIndexOf("alma", 'a'));//custom method
